@@ -1,0 +1,26 @@
+import React from 'react';
+
+ function LabelSelect(props){
+    return(
+      <div className="form-group">
+        <label htmlFor={props.name}>{props.label}</label>
+        
+        <select 
+          id={props.name}
+          value={props.value} 
+          onChange={props.onChange}
+          className="form-control"
+        >
+
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+    
+       </div>
+  )
+}
+export default LabelSelect;
+
