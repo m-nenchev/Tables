@@ -1,2 +1,2 @@
 # Tables
-Names whit tables
+Table for entering names and years of people
